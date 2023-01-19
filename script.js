@@ -41,3 +41,15 @@ console.log(typeof year);
 
 year = 1989;
 console.log(typeof year);
+
+// Lecture 3 - let, consts and var
+
+let age = 33; // let - mutable variable
+age = 34;
+
+const birthYear = 1989; // const - unmutable varible
+// birthYear = 1990; // error
+
+// const job; // error - cant be undifined, need initial value
+
+// var - old way to declare variable - avoid
