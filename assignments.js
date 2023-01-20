@@ -20,3 +20,16 @@ console.log(typeof language);
 
 //Lecture 3 - let, const and var
 language = 'Serbian';
+
+// Lecture 4 - Basic operators
+
+const halfCountry = population / 2;
+console.log(halfCountry);
+population++;
+console.log(population);
+const finlandPopulation = 6000000;
+console.log(country > finlandPopulation);
+const avgPopulation = 33000000;
+console.log(country > avgPopulation);
+const description =
+  'Serbia is in Europe, and its 6.8 million people speak serbian';
