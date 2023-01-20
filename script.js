@@ -93,3 +93,23 @@
 
 // const ageAverage = (ageJonas + ageSarah) / 2;
 // console.log(ageAverage);
+
+const firstName = 'Dejan';
+const job = 'programer';
+const birthYear = 1989;
+const curentYear = 2037;
+const dejan =
+  "I'm " +
+  firstName +
+  ', a ' +
+  (curentYear - birthYear) +
+  ' year old ' +
+  job +
+  '.';
+console.log(dejan);
+
+const dejanNew = `I'm ${firstName}, a ${
+  curentYear - birthYear
+} year old ${job}!`;
+
+console.log(dejanNew);
