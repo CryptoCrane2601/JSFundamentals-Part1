@@ -118,10 +118,24 @@
 // multi
 // line`);
 
-const age = 18;
+// const age = 15;
 
-if (age >= 18) {
-  console.log('Sara can start driving licence 🚗');
+// if (age >= 18) {
+//   console.log('Sara can start driving licence 🚗');
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(
+//     `Sara cant drive jet, she is too young. Wait another ${yearsLeft} years :)`
+//   );
+// }
+
+const birthYear = 1989;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
 } else {
-  console.log('Sara cant drive jet, she is too young.');
+  century = 21;
 }
+
+console.log(century);
