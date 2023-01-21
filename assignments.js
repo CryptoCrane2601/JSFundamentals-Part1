@@ -1,9 +1,9 @@
 //ASSIGMENTS:
 
 //Lecture 1 - Variables
-// const country = 'Serbia';
+const country = 'Serbia';
 // const continent = 'Europe';
-// let population = 6834000;
+let population = 6834000;
 
 //console.log(country);
 //console.log(continent);
@@ -38,3 +38,15 @@
 
 //const description = `${country} is in ${continent}, and its ${population} people speak ${language}.`;
 //console.log(description);
+
+//Lecture 6 - Taking Decisions: if / else Statements
+
+// Portugal's population is above average'.
+// Portugal's population is 22 million below average'
+let average = 33000000;
+if (population > average) {
+  console.log(`${country}'s population is above average`);
+} else {
+  let count = average - population;
+  console.log(`${country}'s population is ${count} million below average`);
+}
