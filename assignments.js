@@ -1,9 +1,9 @@
 // //ASSIGMENTS:
 
 // //Lecture 1 - Variables
-// const country = 'Serbia';
-// const continent = 'Europe';
-// let population = 6834000;
+const country = 'Serbia';
+const continent = 'Europe';
+let population = 6834000;
 
 // console.log(country);
 // console.log(continent);
@@ -19,7 +19,7 @@
 // console.log(typeof language);
 
 // //Lecture 3 - let, const and var
-// language = 'Serbian';
+language = 'serbian';
 
 // // Lecture 4 - Basic operators
 
@@ -33,3 +33,8 @@
 // console.log(country > avgPopulation);
 // const description =
 //   'Serbia is in Europe, and its 6.8 million people speak serbian';
+
+// Lecture 5 - Strings and Template Literals
+
+const description = `${country} is in ${continent}, and its ${population} people speak ${language}.`;
+console.log(description);
