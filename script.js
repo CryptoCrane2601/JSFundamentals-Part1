@@ -94,6 +94,8 @@
 //const ageAverage = (ageJonas + ageSarah) / 2;
 //console.log(ageAverage);
 
+//Lecture 5 - Strings and Template Literals
+
 // const firstName = 'Dejan';
 // const job = 'programer';
 // const birthYear = 1989;
@@ -118,6 +120,8 @@
 // multi
 // line`);
 
+//Lecture 6 - Taking Decisions: if / else Statements
+
 // const age = 15;
 
 // if (age >= 18) {
@@ -140,7 +144,7 @@
 
 // console.log(century);
 
-// Lecture 5 - Type Conversion and Coercion
+// Lecture 7 - Type Conversion and Coercion
 
 const inputYear = 1989;
 console.log(inputYear + 18);
