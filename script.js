@@ -139,3 +139,8 @@
 // }
 
 // console.log(century);
+
+// Lecture 5 - Type Conversion and Coercion
+
+const inputYear = 1989;
+console.log(inputYear + 18);
