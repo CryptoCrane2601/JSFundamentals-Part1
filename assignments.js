@@ -60,3 +60,5 @@
 // '123' < 57; = false
 // 5 + 6 + '4' + 9 - 4 - 2; = 1143
 // 2. Execute the operations to check if you were right
+
+// Lecture 8: Equality Operators: == vs. ===
