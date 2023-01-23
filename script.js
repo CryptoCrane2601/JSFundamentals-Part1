@@ -146,11 +146,14 @@
 
 // Lecture 7 - Type Conversion and Coercion
 
-const inputYear = '1989';
-console.log(Number(inputYear));
-console.log(Number(inputYear) + 18);
+// Type Conversion
+// const inputYear = '1989';
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
 
-console.log(Number('Dejan'));
-console.log(typeof NaN);
+// console.log(Number('Dejan'));
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
+
+// Type Coercion
