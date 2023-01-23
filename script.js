@@ -187,13 +187,23 @@
 
 // Lecture 9 - Equality Operators: == vs. ===
 
-const age = 18;
+// const age = 18;
 
-if (age === 18) console.log('You just becomne a adult! (strict)');
+// if (age === 18) console.log('You just becomne a adult! (strict)');
 
-if (age == 18) console.log('You just becomne a adult! (loose)');
+// if (age == 18) console.log('You just becomne a adult! (loose)');
 
-const favourite = prompt("What's your favorite number?");
+// const favourite = Number(prompt("What's your favorite number?"));
 
-console.log(favourite);
-console.log(typeof favourite);
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 27) {
+//   console.log('Cool! 27 is amazing number!');
+// } else if (favourite === 23) {
+//   console.log('Cool! 23 is great number!');
+// } else {
+//   console.log('Choose better and cooler number :)');
+// }
+
+// if (favourite !== 23) console.log('Why not a 27?');
