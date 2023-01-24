@@ -10,7 +10,7 @@
 //console.log(population);
 
 //Lecture 2 - Data Types
-//const isIsland = false;
+// const isIsland = false;
 //let language;
 
 //console.log(typeof isIsland);
@@ -19,7 +19,7 @@
 //console.log(typeof language);
 
 //Lecture 3 - let, const and var
-//language = 'serbian';
+// language = 'serbian';
 
 //Lecture 4 - Basic operators
 
@@ -63,14 +63,26 @@
 
 // Lecture 8: Equality Operators: == vs. ===
 
-const numNeighbours = Number(
-  prompt('How many neighbour countries does your country have?')
-);
-// console.log(numNeighbours);
-if (numNeighbours === 1) {
-  console.log("Only 1 border!'");
-} else if (numNeighbours > 1) {
-  console.log("More than 1 border'");
-} else {
-  console.log("No borders'");
-}
+// const numNeighbours = Number(
+//   prompt('How many neighbour countries does your country have?')
+// );
+// // console.log(numNeighbours);
+// if (numNeighbours === 1) {
+//   console.log("Only 1 border!'");
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 border'");
+// } else {
+//   console.log("No borders'");
+// }
+
+// Lecture 9: Logical Operators
+
+// if (language === 'english' && !isIsland && population < 50000000) {
+//   console.log(
+//     `This is Sarah new country for live in. You should live in ${country}!`
+//   );
+// } else {
+//   console.log(
+//     `Sarah, you need to keep looking for new country! ${country} doesn't meet your criteria.`
+//   );
+// }
