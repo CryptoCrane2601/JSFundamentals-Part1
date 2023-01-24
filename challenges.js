@@ -121,24 +121,24 @@
 // const minPoint = 100;
 
 // Data Bonus 2:
-const averageKoalas = (109 + 95 + 106) / 3;
-console.log(averageKoalas);
-const averageDolphins = (76 + 112 + 101) / 3;
-console.log(averageDolphins);
-const minPoint = 100;
+// const averageKoalas = (109 + 95 + 106) / 3;
+// console.log(averageKoalas);
+// const averageDolphins = (76 + 112 + 101) / 3;
+// console.log(averageDolphins);
+// const minPoint = 100;
 
-if (averageKoalas > averageDolphins && averageKoalas > minPoint) {
-  console.log(`The winner of competition are team Koalas! Congratulations!`);
-} else if (
-  averageKoalas === averageDolphins &&
-  averageKoalas > minPoint &&
-  averageDolphins > minPoint
-) {
-  console.log(
-    `It's a draw. Both team's have ${averageDolphins} average points`
-  );
-} else if (averageDolphins > averageKoalas && averageDolphins > minPoint) {
-  console.log(`The winner of competition are team Dolphins! Congratulations!`);
-} else {
-  console.log(`There is no winner of competition, minimal points are not met!`);
-}
+// if (averageKoalas > averageDolphins && averageKoalas > minPoint) {
+//   console.log(`The winner of competition are team Koalas! Congratulations!`);
+// } else if (
+//   averageKoalas === averageDolphins &&
+//   averageKoalas > minPoint &&
+//   averageDolphins > minPoint
+// ) {
+//   console.log(
+//     `It's a draw. Both team's have ${averageDolphins} average points`
+//   );
+// } else if (averageDolphins > averageKoalas && averageDolphins > minPoint) {
+//   console.log(`The winner of competition are team Dolphins! Congratulations!`);
+// } else {
+//   console.log(`There is no winner of competition, minimal points are not met!`);
+// }
