@@ -210,14 +210,14 @@
 
 // Lecture 10 - Logical operators
 
-const hasDrivingLicence = true; // A
-const hasGoodVision = true; // B
+// const hasDrivingLicence = true; // A
+// const hasGoodVision = true; // B
 
-console.log(hasDrivingLicence && hasGoodVision);
-console.log(hasDrivingLicence || hasGoodVision);
-console.log(!hasDrivingLicence);
+// console.log(hasDrivingLicence && hasGoodVision);
+// console.log(hasDrivingLicence || hasGoodVision);
+// console.log(!hasDrivingLicence);
 
-const shouldDrive = hasDrivingLicence && hasGoodVision;
+// const shouldDrive = hasDrivingLicence && hasGoodVision;
 
 // if (shouldDrive == true) {
 //   console.log('Sara should drive');
@@ -225,11 +225,11 @@ const shouldDrive = hasDrivingLicence && hasGoodVision;
 //   console.log("Sara shouldn't drive");
 // }
 
-const isTired = false; // C
-console.log(hasDrivingLicence || hasGoodVision || isTired);
+// const isTired = false; // C
+// console.log(hasDrivingLicence || hasGoodVision || isTired);
 
-if (shouldDrive == true && !isTired) {
-  console.log('Sara should drive');
-} else {
-  console.log("Sara shouldn't drive");
-}
+// if (shouldDrive == true && !isTired) {
+//   console.log('Sara should drive');
+// } else {
+//   console.log("Sara shouldn't drive");
+// }
