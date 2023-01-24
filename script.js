@@ -207,3 +207,29 @@
 // }
 
 // if (favourite !== 23) console.log('Why not a 27?');
+
+// Lecture 10 - Logical operators
+
+const hasDrivingLicence = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDrivingLicence && hasGoodVision);
+console.log(hasDrivingLicence || hasGoodVision);
+console.log(!hasDrivingLicence);
+
+const shouldDrive = hasDrivingLicence && hasGoodVision;
+
+// if (shouldDrive == true) {
+//   console.log('Sara should drive');
+// } else {
+//   console.log("Sara shouldn't drive");
+// }
+
+const isTired = false; // C
+console.log(hasDrivingLicence || hasGoodVision || isTired);
+
+if (shouldDrive == true && !isTired) {
+  console.log('Sara should drive');
+} else {
+  console.log("Sara shouldn't drive");
+}
