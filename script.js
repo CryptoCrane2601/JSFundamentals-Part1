@@ -279,3 +279,5 @@
 // } else {
 //   console.log('Not a valid day!');
 // }
+
+// Lecture 12 - The Conditional (Ternary) Operator:
