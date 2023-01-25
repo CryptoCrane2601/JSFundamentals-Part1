@@ -281,3 +281,23 @@
 // }
 
 // Lecture 12 - The Conditional (Ternary) Operator:
+
+const age = 34;
+// age >= 18
+//   ? console.log('I like to drink beer 🍺')
+//   : console.log('I like to dring water 💧');
+
+// const drink = age >= 18 ? 'beer 🍺' : 'water 💧';
+// console.log(drink);
+
+// //Comparing ternary operator with if statement:
+
+// let drink2;
+// if (age >= 18) {
+//   drink2 = 'beer 🍺';
+// } else {
+//   drink2 = 'water 💧';
+// }
+// console.log(drink2);
+
+// console.log(`I like to drink ${age >= 18 ? 'beer 🍺' : 'water 💧'}`);
